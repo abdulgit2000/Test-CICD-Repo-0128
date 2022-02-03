@@ -17,5 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('www.amazon.com')
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://www.amazon.com/')
+
+WebUI.click(findTestObject('Object Repository/AmazonTestRepo/Page_Amazon.com. Spend less. Smile more/a_Todays Deals'))
+
+WebUI.click(findTestObject('Object Repository/AmazonTestRepo/Page_Amazon.com - Todays Deals/span_Digital Deals'))
+
+WebUI.click(findTestObject('Object Repository/AmazonTestRepo/Page_Amazon.com  Apps  Games/span_Coupons'))
+
+WebUI.click(findTestObject('Object Repository/AmazonTestRepo/Page_Amazon Coupons  Amazon.com/span_Hello, Sign in'))
+
+WebUI.click(findTestObject('Object Repository/AmazonTestRepo/Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402'))
 
